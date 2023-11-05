@@ -2,6 +2,7 @@
 
 import discord
 from discord.ext import commands
+from secret import *
 
 # End Imports
 
@@ -60,4 +61,4 @@ async def left(ctx):
 #commands End
 
 
-client.run(TOKEN)
+client.run(token_discord)
