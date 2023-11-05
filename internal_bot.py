@@ -22,6 +22,7 @@ openai.api_key = token_chatgpt
 
 @client.event
 async def on_ready():
+    await client.change_presence(status=discord.Status.do_not_disturb,activity=discord.Streaming(name='Elden Ring',url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'))
     print(f'We have logged in as {client.user}')
 
 ## Join and Remove events
