@@ -1,2 +1,2 @@
-# Discord_Internal_Bot
-Repository for an internal discord bot with multiple functionalitys
+# nextcord_Internal_Bot
+Repository for an internal nextcord bot with multiple functionalitys
